@@ -23,7 +23,7 @@ Linux pwn 4.13.0-36-generic #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 
 
 由于 python2 即将不再维护，pwntools 官方也推荐使用 python3 来安装，所以安装的是 python3 版本。
 
-![](https://carlstar.club/images/github/img2.png)
+![](./img2.png)
 
 ### vim
 
@@ -33,7 +33,7 @@ Linux pwn 4.13.0-36-generic #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 
 
 比较大的文件或者做 kernel pwn 找 gadgets 的时候还是 ropper 好用
 
-![](https://carlstar.club/images/github/img3.png)
+![](./img3.png)
 
 
 
@@ -41,7 +41,7 @@ Linux pwn 4.13.0-36-generic #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 
 
 一般找 gadgets 用它就好了。
 
-![](https://carlstar.club/images/github/img4.png)
+![](./img4.png)
 
 
 
@@ -59,7 +59,7 @@ Linux pwn 4.13.0-36-generic #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 
 
 
 
-![](https://carlstar.club/images/github/img5.png)
+![](./img5.png)
 
 
 
@@ -80,7 +80,7 @@ pwndbg> b _int_malloc
 
 做题神器，一般的话至少有一个 gadget 肯定可以用，不行的话那只能 realloc 调栈或者试试 free_hook。
 
-![](https://carlstar.club/images/github/img6.png)
+![](./img6.png)
 
 ## Installation
 
@@ -93,11 +93,11 @@ chmod +x init_pwn.sh
 
 如果虚拟机或者本地无法直接访问 git，那么脚本不会执行成功，需要设置 socks5 代理。
 
-![](https://carlstar.club/images/github/img0.png)
+![](./img0.png)
 
 在拉取 lic-database 时时间比较久，可以后续自己手动下载。
 
-![](https://carlstar.club/images/github/img1.png)
+![](./img1.png)
 
 
 
